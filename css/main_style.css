@@ -1,0 +1,151 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+*:focus {
+  outline:none;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.col-85 {
+  width: 85%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+}
+
+body>.row:nth-child(1) {
+  background-color: grey;
+  background-image: url(../images/image4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 49.7vw;
+}
+
+.build_trip {
+  position: relative;
+  top: 1.5vw;
+  right: 1.5vw;
+  background-color: #fff;
+  border-radius: 2.6vw;
+  height: 2vw;
+  width: 16vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.build_trip span {
+  /*font-family: 'Dancing Script';*/
+  line-height: 1.9vw;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.navigation {
+  height: 13vw;
+  background: linear-gradient(to bottom, rgba(80,80,80,0.7), rgba(80,80,80,0));
+}
+
+.navigation>div:nth-child(2)>li {
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin: 0 1.35vw;
+  color: #fff;
+  position: relative;
+  top: -1vw;
+  display: inline-block;
+}
+
+.navigation>div:nth-child(2)>li:nth-child(3) {
+  font-family: 'Dancing Script';
+  font-size: 5vw;
+  font-weight: bold;
+  top: 0;
+}
+
+.moto {
+  text-align: center;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.rotate {
+  transform: rotate(356deg);
+}
+
+.moto span:nth-child(1) {
+  font-family: 'Dancing Script';
+  font-size: 7vw;
+  line-height: 7vw;
+  color: #fff;
+  text-shadow: 1px 1px #444;
+}
+
+.serious {
+  position: relative;
+  top: 5vw;
+  font-family: 'Fjalla One';
+  font-size: 1.7vw;
+  text-shadow: 1px 1px #444;
+  color: #fff;
+  letter-spacing: 0.7vw;
+}
